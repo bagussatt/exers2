@@ -53,10 +53,13 @@ namespace exers2
                     Console.Write("\n"); 
 
             }
-            
-            
+            return 0;
         }
-        static void Main(stri)
+        static void Main(string[] args)
+        {
+            InsertionSorting();
+            Console.ReadLine();
+        }
     }
     
 }
