@@ -50,7 +50,7 @@ namespace exers2
             {
                    Console.Write("Pengurutan [" + (i + 1).ToString() + "] elemennt :");
                     Console.Write(numarray[i]);
-                    Console.Write("\n");
+                    Console.Write("\n"); 
 
             }
             
