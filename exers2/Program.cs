@@ -42,17 +42,21 @@ namespace exers2
                 for (int k = 0; k < 23; k++)
                     Console.Write(numarray[k] + " ");
                 Console.Write("\n");
-                for (int i = 1; i < 23; i++)
-                {
-                   Console.Write("Pengurutan [" + (i + 1).ToString() + "] elemennt :");
-
-
-                }
+                Console.Write(" " + (i + 1).ToString() + " angka dari awal array dimasukkan dan diurutkan \n");
 
             }
+            Console.Write("\n\n Angka di urutkan dari atas kebawah: \n\n");
+            for (int i = 0; i < 23; i++)
+            {
+                   Console.Write("Pengurutan [" + (i + 1).ToString() + "] elemennt :");
+                    Console.Write(numarray[i]);
+                    Console.Write("\n");
 
+            }
+            
+            
         }
-    
+        static void Main(stri)
     }
     
 }
