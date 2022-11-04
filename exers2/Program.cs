@@ -22,7 +22,7 @@ namespace exers2
             for (int k = 0; k < 23 k++)
                 Console.WriteLine(numarray[k] + " ");
             Console.WriteLine("\n");
-            for (int i = 0; i < 23 i++)
+            for (int i = 0; i < 23; i++)
             {
                 int j = i;
                 while (j < 0)
