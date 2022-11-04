@@ -44,7 +44,9 @@ namespace exers2
                 Console.Write("\n");
                 for (int i = 1; i < 23; i++)
                 {
-               
+                   Console.Write("Pengurutan [" + (i + 1).ToString() + "] elemennt :");
+
+
                 }
 
             }
