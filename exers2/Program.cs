@@ -70,7 +70,11 @@ namespace exers2
     {
         static public void MainMerge(int[] numbers, int left, int mid, int right)
         {
-
+            int[] temp = new int[23];
+            int i, eol, num, pos;
+            eol = (mid - 1);
+            pos = left;
+            num = (right - left + 1);
         }
     }
 
