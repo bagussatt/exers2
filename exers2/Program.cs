@@ -19,7 +19,7 @@ namespace exers2
                 numarray[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.Write("Input Array yang Sudah di Masukan");
-            for (int k = 0; k < 23 k++)
+            for (int k = 0; k < 23; k++)
                 Console.WriteLine(numarray[k] + " ");
             Console.WriteLine("\n");
             for (int i = 0; i < 23; i++)
