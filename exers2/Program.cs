@@ -10,29 +10,29 @@ namespace exers2
         static int InsertionSorting()
         {   //Input element
             Console.WriteLine("\nProgram Untuk Menjalankan Insertionn");
-            Console.WriteLine("\n\nMasukan Jumblah element yang diinginkan");
+            Console.WriteLine("\n\nMasukan Jumlah element yang diinginkan");
             //input maksimal element
-            int[] numarray = new int[23];
+            int[] bagus = new int[23];
             for (int i = 0; i < 23; i++)
             {
                 Console.WriteLine("\nJumlah [" + (i + 1).ToString() + "] Element");
-                numarray[i] = Convert.ToInt32(Console.ReadLine());
+                bagus[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.Write("Input Array yang Sudah di Masukan");
             for (int k = 0; k < 23; k++)
-                Console.WriteLine(numarray[k] + " ");
+                Console.WriteLine(bagus[k] + " ");
             Console.WriteLine("\n");
             for (int i = 0; i < 23; i++)
             {
-                int j = i;
-                while (j < 0)
+                int bs = i;
+                while (bs < 0)
                 {
-                    if (numarray[j - 1] > numarray[j])
+                    if (bagus[bs - 1] > bagus[bs])
                     {
-                        int temp = numarray[j - 1];
-                        numarray[j - 1] = numarray[j];
-                        numarray[j] = temp;
-                        j--;
+                        int temp = bagus[bs - 1];
+                        bagus[bs - 1] = bagus[bs];
+                        bagus[bs] = temp;
+                        bs--;
                     }
                     else
                         break;
@@ -40,7 +40,7 @@ namespace exers2
                 }
                 Console.WriteLine("Perulangan " + i.ToString() + ": ");
                 for (int k = 0; k < 23; k++)
-                    Console.Write(numarray[k] + " ");
+                    Console.Write(bagus[k] + " ");
                 Console.Write("\n");
                 Console.Write(" " + (i + 1).ToString() + " angka dari awal array dimasukkan dan diurutkan \n");
 
@@ -48,9 +48,9 @@ namespace exers2
             Console.Write("\n\n Angka di urutkan dari atas kebawah: \n\n");
             for (int i = 0; i < 23; i++)
             {
-                   Console.Write("Pengurutan [" + (i + 1).ToString() + "] elemennt :");
-                    Console.Write(numarray[i]);
-                    Console.Write("\n"); 
+                Console.Write("Pengurutan [" + (i + 1).ToString() + "] elemennt :");
+                Console.Write(bagus[i]);
+                Console.Write("\n");
 
             }
             return 0;
@@ -61,5 +61,7 @@ namespace exers2
             Console.ReadLine();
         }
     }
-    
+
 }
+
+        
