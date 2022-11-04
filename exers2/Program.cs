@@ -38,6 +38,15 @@ namespace exers2
                         break;
 
                 }
+                Console.WriteLine("Perulangan " + i.ToString() + ": ");
+                for (int k = 0; k < 23; k++)
+                    Console.Write(numarray[k] + " ");
+                Console.Write("\n");
+                for (int i = 1; i < 23; i++)
+                {
+               
+                }
+
             }
 
         }
