@@ -5,5 +5,8 @@ using System.Text;
 
 namespace exers2
 {
-    
+    class program
+    {
+        
+    }
 }
