@@ -27,6 +27,7 @@ namespace exers2
                 int bs = i;
                 while (bs < 0)
                 {
+                    //melakukan penukaran fungsi
                     if (bagus[bs - 1] > bagus[bs])
                     {
                         int temp = bagus[bs - 1];
@@ -38,6 +39,7 @@ namespace exers2
                         break;
 
                 }
+                //menampilkan tampilan perulangan
                 Console.WriteLine("Perulangan " + i.ToString() + ": ");
                 for (int k = 0; k < 23; k++)
                     Console.Write(bagus[k] + " ");
@@ -48,6 +50,7 @@ namespace exers2
             Console.Write("\n\n Angka di urutkan dari atas kebawah: \n\n");
             for (int i = 0; i < 23; i++)
             {
+                //menampilkan pengurutan
                 Console.Write("Pengurutan [" + (i + 1).ToString() + "] elemennt :");
                 Console.Write(bagus[i]);
                 Console.Write("\n");
@@ -55,12 +58,20 @@ namespace exers2
             }
             return 0;
         }
+        //memanggil kelas
         static void Main(string[] args)
         {
             InsertionSorting();
             Console.ReadLine();
         }
     }
+
+    class MergeSort
+    {
+
+    }
+
+
 
 }
 
